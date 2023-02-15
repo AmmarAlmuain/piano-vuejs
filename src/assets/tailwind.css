@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@600&display=swap');
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.-center {
+    @apply flex justify-center items-center
+
+}
+.-center-col {
+    @apply flex flex-col justify-center items-center
+}
